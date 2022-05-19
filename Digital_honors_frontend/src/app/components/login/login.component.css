@@ -1,0 +1,19 @@
+.full-width{
+    width: 100%;
+}
+.bootstrap-wrapper {
+    background-size: cover;
+    height: 100%;
+    width:100%
+    
+  }
+  h1{
+	font-size:30px;
+	font-weight:bold;
+	text-shadow: 0 0 10px #ff0000;
+}
+h2{
+	font-size:20px;
+	font-weight:bold;
+	
+}

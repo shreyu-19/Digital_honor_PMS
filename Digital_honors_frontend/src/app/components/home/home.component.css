@@ -1,0 +1,15 @@
+.bg-div {
+  background-size: cover;
+  background-position: center center;
+  height: 79%;
+  position: static;
+}
+h1{
+	font-size:40px;
+	font-weight:bold;
+	text-shadow: 0 0 10px #ff0000;
+}
+
+.container{
+	text-align: center;
+}
