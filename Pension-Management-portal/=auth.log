@@ -1,0 +1,503 @@
+2022-04-25 14:04:30.694  INFO [,,] 16232 --- [restartedMain] c.c.PensionManagementPortalApplication   : Starting PensionManagementPortalApplication using Java 1.8.0_141 on LTIN310484 with PID 16232 (C:\Users\894566\OneDrive - Cognizant\Desktop\FSE0\Pension management\PensionManagementSystem-master\PensionManagementSystem-master\Pension-Management-portal\target\classes started by 894566 in C:\Users\894566\OneDrive - Cognizant\Desktop\FSE0\Pension management\PensionManagementSystem-master\PensionManagementSystem-master\Pension-Management-portal)
+2022-04-25 14:04:30.714  INFO [,,] 16232 --- [restartedMain] c.c.PensionManagementPortalApplication   : No active profile set, falling back to default profiles: default
+2022-04-25 14:04:30.799  INFO [,,] 16232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-25 14:04:30.800  INFO [,,] 16232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-25 14:04:32.447  INFO [,,] 16232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-25 14:04:32.475  INFO [,,] 16232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2022-04-25 14:04:33.014  INFO [,,] 16232 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b6efebc2-bb64-3a73-b714-eba9624e96b9
+2022-04-25 14:04:35.252  INFO [,,] 16232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9085 (http)
+2022-04-25 14:04:35.271  INFO [,,] 16232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-25 14:04:35.272  INFO [,,] 16232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-04-25 14:04:35.529  INFO [,,] 16232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-25 14:04:35.530  INFO [,,] 16232 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4729 ms
+2022-04-25 14:04:35.661  INFO [,,] 16232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-25 14:04:36.009  INFO [,,] 16232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-25 14:04:36.022  INFO [,,] 16232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:da9fbd28-a700-4574-a434-df7fb2231e43'
+2022-04-25 14:04:37.243  INFO [,,] 16232 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-25 14:04:37.346  INFO [,,] 16232 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-04-25 14:04:37.577  INFO [,,] 16232 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-25 14:04:37.798  INFO [,,] 16232 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-25 14:04:38.139  INFO [,,] 16232 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-25 14:04:38.153  INFO [,,] 16232 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-25 14:04:38.222  WARN [,,] 16232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-04-25 14:04:38.504  WARN [,,] 16232 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-25 14:04:41.878  INFO [,,] 16232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9085 (http) with context path ''
+2022-04-25 14:04:42.629  INFO [,,] 16232 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-04-25 14:04:42.661  INFO [,,] 16232 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-04-25 14:04:42.682  INFO [,,] 16232 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-04-25 14:04:43.125  INFO [,,] 16232 --- [restartedMain] c.c.PensionManagementPortalApplication   : Started PensionManagementPortalApplication in 13.581 seconds (JVM running for 14.32)
+2022-04-25 14:06:08.443  INFO [,,] 16232 --- [http-nio-9085-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-25 14:06:08.444  INFO [,,] 16232 --- [http-nio-9085-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-25 14:06:08.446  INFO [,,] 16232 --- [http-nio-9085-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-25 14:06:08.711  INFO [,2627daf38a761db6,2627daf38a761db6] 16232 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : STARTED - doLogin
+2022-04-25 14:06:09.924  INFO [,2627daf38a761db6,2627daf38a761db6] 16232 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : END - doLogin
+2022-04-25 14:06:10.288  INFO [,8df579d4bd7aeec9,8df579d4bd7aeec9] 16232 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : STARTED - allDetail
+2022-04-25 14:06:11.082  INFO [,8df579d4bd7aeec9,8df579d4bd7aeec9] 16232 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : END - allDetail
+2022-04-25 14:06:24.384  INFO [,f522a75a64fe9a1f,f522a75a64fe9a1f] 16232 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : STARTED - allDetail
+2022-04-25 14:06:24.407  INFO [,f522a75a64fe9a1f,f522a75a64fe9a1f] 16232 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : END - allDetail
+2022-04-25 14:06:46.276  INFO [,8fadf324f07bc3dd,8fadf324f07bc3dd] 16232 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : STARTED - doLogin
+2022-04-25 14:06:46.288  INFO [,8fadf324f07bc3dd,8fadf324f07bc3dd] 16232 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : END - doLogin
+2022-04-25 14:06:46.747  INFO [,f0c452b233e089a9,f0c452b233e089a9] 16232 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : STARTED - allDetail
+2022-04-25 14:06:46.769  INFO [,f0c452b233e089a9,f0c452b233e089a9] 16232 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : END - allDetail
+2022-05-19 17:55:34.389  INFO [,,] 14644 --- [restartedMain] c.c.PensionManagementPortalApplication   : Starting PensionManagementPortalApplication using Java 15.0.2 on sam with PID 14644 (C:\Users\sumit sahane\Downloads\5_6068926584683758823\Pension-Management-portal\target\classes started by sumit sahane in C:\Users\sumit sahane\Downloads\5_6068926584683758823\Pension-Management-portal)
+2022-05-19 17:55:34.412  INFO [,,] 14644 --- [restartedMain] c.c.PensionManagementPortalApplication   : No active profile set, falling back to default profiles: default
+2022-05-19 17:55:35.091  INFO [,,] 14644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-19 17:55:35.162  INFO [,,] 14644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-19 17:55:41.143  INFO [,,] 14644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 17:55:41.186  INFO [,,] 14644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2022-05-19 17:55:42.414  INFO [,,] 14644 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b6efebc2-bb64-3a73-b714-eba9624e96b9
+2022-05-19 17:55:45.856  INFO [,,] 14644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9085 (http)
+2022-05-19 17:55:45.891  INFO [,,] 14644 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 17:55:45.894  INFO [,,] 14644 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-05-19 17:55:46.427  INFO [,,] 14644 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 17:55:46.428  INFO [,,] 14644 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11260 ms
+2022-05-19 17:55:46.795  INFO [,,] 14644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-19 17:55:47.518  INFO [,,] 14644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-19 17:55:47.550  INFO [,,] 14644 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7c9b32b6-cfef-41c6-ae1b-61a014a29f69'
+2022-05-19 17:55:50.021  INFO [,,] 14644 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-19 17:55:50.481  INFO [,,] 14644 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-05-19 17:55:51.197  INFO [,,] 14644 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-19 17:55:51.761  INFO [,,] 14644 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-19 17:55:52.539  INFO [,,] 14644 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-19 17:55:52.582  INFO [,,] 14644 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 17:55:52.883  WARN [,,] 14644 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-19 17:55:53.693  WARN [,,] 14644 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-19 17:56:00.216  INFO [,,] 14644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9085 (http) with context path ''
+2022-05-19 17:56:00.626  INFO [,,] 14644 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-05-19 17:56:00.737  INFO [,,] 14644 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-05-19 17:56:00.826  INFO [,,] 14644 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-05-19 17:56:01.608  INFO [,,] 14644 --- [restartedMain] c.c.PensionManagementPortalApplication   : Started PensionManagementPortalApplication in 29.393 seconds (JVM running for 32.415)
+2022-05-19 17:57:29.811  INFO [,,] 14644 --- [http-nio-9085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-19 17:57:29.815  INFO [,,] 14644 --- [http-nio-9085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-19 17:57:29.815  INFO [,,] 14644 --- [http-nio-9085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-05-19 18:05:10.604  INFO [,81a5785831124a8e,81a5785831124a8e] 14644 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 18:05:14.036  INFO [,81a5785831124a8e,81a5785831124a8e] 14644 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : END - doLogin
+2022-05-19 18:05:15.627  INFO [,822fa38e5aea1822,822fa38e5aea1822] 14644 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 18:05:20.175  INFO [,822fa38e5aea1822,822fa38e5aea1822] 14644 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : END - allDetail
+2022-05-19 18:47:58.261  INFO [,b50052cbcbfed48d,b50052cbcbfed48d] 14644 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 18:47:58.542  INFO [,b50052cbcbfed48d,b50052cbcbfed48d] 14644 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : END - allDetail
+2022-05-19 18:50:19.518  INFO [,c478f9963ab71341,c478f9963ab71341] 14644 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 18:50:19.601  INFO [,c478f9963ab71341,c478f9963ab71341] 14644 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : END - allDetail
+2022-05-19 18:50:28.422  INFO [,0836b37278bf594e,0836b37278bf594e] 14644 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 18:50:28.602  INFO [,0836b37278bf594e,0836b37278bf594e] 14644 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : END - doLogin
+2022-05-19 18:50:29.162  INFO [,8b74fd7e2a3327c7,8b74fd7e2a3327c7] 14644 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 18:50:29.245  INFO [,8b74fd7e2a3327c7,8b74fd7e2a3327c7] 14644 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : END - allDetail
+2022-05-19 18:51:48.770  INFO [,2e19c21c42b2dea5,2e19c21c42b2dea5] 14644 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : STARTED - getPensionDetail
+2022-05-19 18:51:50.425  INFO [,2e19c21c42b2dea5,2e19c21c42b2dea5] 14644 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : END - getPensionDetail
+2022-05-19 18:52:42.681  INFO [,60ee7040d24d3bbf,60ee7040d24d3bbf] 14644 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 18:52:42.712  INFO [,60ee7040d24d3bbf,60ee7040d24d3bbf] 14644 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 18:53:03.602  INFO [,ef630614ad1f6e7f,ef630614ad1f6e7f] 14644 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 18:53:03.633  INFO [,ef630614ad1f6e7f,ef630614ad1f6e7f] 14644 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 18:53:11.291  INFO [,bebe02b7dfe61d74,bebe02b7dfe61d74] 14644 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 18:53:11.315  INFO [,bebe02b7dfe61d74,bebe02b7dfe61d74] 14644 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 18:53:52.552  INFO [,cb3969451b2d810f,cb3969451b2d810f] 14644 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 18:53:52.570  INFO [,cb3969451b2d810f,cb3969451b2d810f] 14644 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 18:54:41.454  INFO [,0100abc7b7ac9929,0100abc7b7ac9929] 14644 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 18:54:41.478  INFO [,0100abc7b7ac9929,0100abc7b7ac9929] 14644 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 18:55:04.401  INFO [,fb08cdf22155b607,fb08cdf22155b607] 14644 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : STARTED - getPensionDetail
+2022-05-19 18:55:04.523  INFO [,fb08cdf22155b607,fb08cdf22155b607] 14644 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : END - getPensionDetail
+2022-05-19 18:55:24.264  INFO [,4a0b96154a95b399,4a0b96154a95b399] 14644 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 18:55:24.301  INFO [,4a0b96154a95b399,4a0b96154a95b399] 14644 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 18:56:21.889  INFO [,ccd22144ee664be0,ccd22144ee664be0] 14644 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 18:56:21.908  INFO [,ccd22144ee664be0,ccd22144ee664be0] 14644 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 20:33:26.358  INFO [,,] 14712 --- [restartedMain] c.c.PensionManagementPortalApplication   : Starting PensionManagementPortalApplication using Java 15.0.2 on sam with PID 14712 (C:\Users\sumit sahane\Downloads\5_6068926584683758823\Pension-Management-portal\target\classes started by sumit sahane in C:\Users\sumit sahane\Downloads\5_6068926584683758823\Pension-Management-portal)
+2022-05-19 20:33:26.376  INFO [,,] 14712 --- [restartedMain] c.c.PensionManagementPortalApplication   : No active profile set, falling back to default profiles: default
+2022-05-19 20:33:26.500  INFO [,,] 14712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-19 20:33:26.501  INFO [,,] 14712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-19 20:33:28.148  INFO [,,] 14712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 20:33:28.170  INFO [,,] 14712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2022-05-19 20:33:28.655  INFO [,,] 14712 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b6efebc2-bb64-3a73-b714-eba9624e96b9
+2022-05-19 20:33:30.083  INFO [,,] 14712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9085 (http)
+2022-05-19 20:33:30.101  INFO [,,] 14712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 20:33:30.102  INFO [,,] 14712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-05-19 20:33:30.299  INFO [,,] 14712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 20:33:30.300  INFO [,,] 14712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3797 ms
+2022-05-19 20:33:30.439  INFO [,,] 14712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-19 20:33:30.745  INFO [,,] 14712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-19 20:33:30.757  INFO [,,] 14712 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5ffd098a-ea43-4a79-82ee-9333fec0d0fb'
+2022-05-19 20:33:31.452  INFO [,,] 14712 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-19 20:33:31.561  INFO [,,] 14712 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-05-19 20:33:31.803  INFO [,,] 14712 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-19 20:33:31.989  INFO [,,] 14712 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-19 20:33:32.325  INFO [,,] 14712 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-19 20:33:32.337  INFO [,,] 14712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 20:33:32.406  WARN [,,] 14712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-19 20:33:32.713  WARN [,,] 14712 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-19 20:33:34.889  INFO [,,] 14712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9085 (http) with context path ''
+2022-05-19 20:33:34.999  INFO [,,] 14712 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-05-19 20:33:35.023  INFO [,,] 14712 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-05-19 20:33:35.046  INFO [,,] 14712 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-05-19 20:33:35.280  INFO [,,] 14712 --- [restartedMain] c.c.PensionManagementPortalApplication   : Started PensionManagementPortalApplication in 9.733 seconds (JVM running for 10.974)
+2022-05-19 20:35:22.236  INFO [,,] 14712 --- [http-nio-9085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-19 20:35:22.237  INFO [,,] 14712 --- [http-nio-9085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-19 20:35:22.241  INFO [,,] 14712 --- [http-nio-9085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-05-19 20:35:23.183  INFO [,bd2aabf2948c8896,bd2aabf2948c8896] 14712 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 20:35:24.605  INFO [,bd2aabf2948c8896,bd2aabf2948c8896] 14712 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : END - doLogin
+2022-05-19 20:35:25.222  INFO [,01f7813dea7be152,01f7813dea7be152] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 20:35:26.912  INFO [,01f7813dea7be152,01f7813dea7be152] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:13:09.533  INFO [,4ccbdccf2f76630a,4ccbdccf2f76630a] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 21:13:09.577  INFO [,4ccbdccf2f76630a,4ccbdccf2f76630a] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : END - doLogin
+2022-05-19 21:13:09.959  INFO [,0977d53e82bdfe46,0977d53e82bdfe46] 14712 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:13:10.142  INFO [,0977d53e82bdfe46,0977d53e82bdfe46] 14712 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:13:32.659  INFO [,5c4afb1418478661,5c4afb1418478661] 14712 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 21:13:32.674  INFO [,5c4afb1418478661,5c4afb1418478661] 14712 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : END - doLogin
+2022-05-19 21:13:33.040  INFO [,0a192a4ff381c2ea,0a192a4ff381c2ea] 14712 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:13:33.168  INFO [,0a192a4ff381c2ea,0a192a4ff381c2ea] 14712 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:16:20.094  INFO [,097bb6359ab732ca,097bb6359ab732ca] 14712 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:16:20.144  INFO [,097bb6359ab732ca,097bb6359ab732ca] 14712 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:16:46.049  INFO [,6e6bad598f60713f,6e6bad598f60713f] 14712 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:16:46.099  INFO [,6e6bad598f60713f,6e6bad598f60713f] 14712 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:22:38.257  INFO [,98550a6e6a343438,98550a6e6a343438] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 21:22:38.273  INFO [,98550a6e6a343438,98550a6e6a343438] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : END - doLogin
+2022-05-19 21:22:38.683  INFO [,e15539e718b79df6,e15539e718b79df6] 14712 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:22:38.754  INFO [,e15539e718b79df6,e15539e718b79df6] 14712 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:27:23.247  INFO [,bac228163f046591,bac228163f046591] 14712 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:27:23.300  INFO [,bac228163f046591,bac228163f046591] 14712 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:27:29.322  INFO [,67bace54b007f659,67bace54b007f659] 14712 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:27:29.377  INFO [,67bace54b007f659,67bace54b007f659] 14712 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:27:39.666  INFO [,15004c630e7a0d6c,15004c630e7a0d6c] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:27:39.693  INFO [,15004c630e7a0d6c,15004c630e7a0d6c] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:30:27.612  INFO [,5df0896beb78eb9e,5df0896beb78eb9e] 14712 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:30:27.651  INFO [,5df0896beb78eb9e,5df0896beb78eb9e] 14712 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:30:59.164  INFO [,011d713da13becf7,011d713da13becf7] 14712 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:30:59.209  INFO [,011d713da13becf7,011d713da13becf7] 14712 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:32:08.382  INFO [,d9262779dd61e289,d9262779dd61e289] 14712 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:32:08.486  INFO [,d9262779dd61e289,d9262779dd61e289] 14712 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:33:00.276  INFO [,521c07e03396837d,521c07e03396837d] 14712 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:33:00.341  INFO [,521c07e03396837d,521c07e03396837d] 14712 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:35:35.716  INFO [,0f44ae7ed03268cb,0f44ae7ed03268cb] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:35:35.748  INFO [,0f44ae7ed03268cb,0f44ae7ed03268cb] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:35:39.839  INFO [,4665dbc0fa8fdb8c,4665dbc0fa8fdb8c] 14712 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:35:39.877  INFO [,4665dbc0fa8fdb8c,4665dbc0fa8fdb8c] 14712 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:36:53.708  INFO [,4309c6f5843de22a,4309c6f5843de22a] 14712 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:36:53.779  INFO [,4309c6f5843de22a,4309c6f5843de22a] 14712 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:36:58.966  INFO [,d50ef168fdfdea19,d50ef168fdfdea19] 14712 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:36:58.997  INFO [,d50ef168fdfdea19,d50ef168fdfdea19] 14712 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:38:04.755  INFO [,73998d3a5393dc61,73998d3a5393dc61] 14712 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:38:04.790  INFO [,73998d3a5393dc61,73998d3a5393dc61] 14712 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:38:27.155  INFO [,fd520e7a51acde7b,fd520e7a51acde7b] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:38:27.180  INFO [,fd520e7a51acde7b,fd520e7a51acde7b] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:38:32.648  INFO [,26882cd36e55f42a,26882cd36e55f42a] 14712 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:38:32.675  INFO [,26882cd36e55f42a,26882cd36e55f42a] 14712 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:38:51.440  INFO [,5152de9157e22735,5152de9157e22735] 14712 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:38:51.487  INFO [,5152de9157e22735,5152de9157e22735] 14712 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:50:47.134  INFO [,b15aa055c776c757,b15aa055c776c757] 14712 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 21:50:47.165  INFO [,b15aa055c776c757,b15aa055c776c757] 14712 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : END - allDetail
+2022-05-19 21:50:55.402  INFO [,25ebdaa422db677b,25ebdaa422db677b] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : STARTED - getPensionDetail
+2022-05-19 21:50:57.560 ERROR [,,] 14712 --- [http-nio-9085-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.FeignException$NotFound: [404] during [POST] to [http://localhost:9084/pensionerInput] [ProcessPensionClient#getPensionDetail(String,PensionerInput)]: [{"message":"Pensioner Detail not coreect","statusCode":404,"exceptionTime":1652977257379}]] with root cause
+
+feign.FeignException$NotFound: [404] during [POST] to [http://localhost:9084/pensionerInput] [ProcessPensionClient#getPensionDetail(String,PensionerInput)]: [{"message":"Pensioner Detail not coreect","statusCode":404,"exceptionTime":1652977257379}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:201) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:177) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:169) ~[feign-core-10.12.jar:na]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92) ~[feign-core-10.12.jar:na]
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89) ~[feign-core-10.12.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100) ~[feign-core-10.12.jar:na]
+	at com.sun.proxy.$Proxy112.getPensionDetail(Unknown Source) ~[na:na]
+	at com.cognizant.controller.PensionController.getPensionDetail(PensionController.java:104) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:89) ~[spring-cloud-sleuth-instrumentation-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.autoconfig.instrument.web.LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:114) ~[spring-cloud-sleuth-autoconfigure-3.0.3.jar:3.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2022-05-19 21:50:57.659  INFO [,d2df534bf8e13304,d2df534bf8e13304] 14712 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : STARTED - getPensionDetail
+2022-05-19 21:50:57.721 ERROR [,,] 14712 --- [http-nio-9085-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.FeignException$NotFound: [404] during [POST] to [http://localhost:9084/pensionerInput] [ProcessPensionClient#getPensionDetail(String,PensionerInput)]: [{"message":"Pensioner Detail not coreect","statusCode":404,"exceptionTime":1652977257706}]] with root cause
+
+feign.FeignException$NotFound: [404] during [POST] to [http://localhost:9084/pensionerInput] [ProcessPensionClient#getPensionDetail(String,PensionerInput)]: [{"message":"Pensioner Detail not coreect","statusCode":404,"exceptionTime":1652977257706}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:201) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:177) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:169) ~[feign-core-10.12.jar:na]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92) ~[feign-core-10.12.jar:na]
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89) ~[feign-core-10.12.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100) ~[feign-core-10.12.jar:na]
+	at com.sun.proxy.$Proxy112.getPensionDetail(Unknown Source) ~[na:na]
+	at com.cognizant.controller.PensionController.getPensionDetail(PensionController.java:104) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:89) ~[spring-cloud-sleuth-instrumentation-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.autoconfig.instrument.web.LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:114) ~[spring-cloud-sleuth-autoconfigure-3.0.3.jar:3.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2022-05-19 21:53:12.914  INFO [,0795e4ec54640aab,0795e4ec54640aab] 14712 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : STARTED - getPensionDetail
+2022-05-19 21:53:13.667  INFO [,0795e4ec54640aab,0795e4ec54640aab] 14712 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : END - getPensionDetail
+2022-05-19 21:53:49.421  INFO [,a36752864451a8c7,a36752864451a8c7] 14712 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 21:53:49.439  INFO [,a36752864451a8c7,a36752864451a8c7] 14712 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 22:00:07.720  INFO [,532a0a21bdacf331,532a0a21bdacf331] 14712 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 22:00:07.752  INFO [,532a0a21bdacf331,532a0a21bdacf331] 14712 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 22:00:31.236  INFO [,c8e37ac5b0adb294,c8e37ac5b0adb294] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 22:00:31.255  INFO [,c8e37ac5b0adb294,c8e37ac5b0adb294] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : END - doLogin
+2022-05-19 22:00:31.747  INFO [,daea6020e24901aa,daea6020e24901aa] 14712 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 22:00:31.796  INFO [,daea6020e24901aa,daea6020e24901aa] 14712 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : END - allDetail
+2022-05-19 22:01:38.611  INFO [,f807cec74ad3affb,f807cec74ad3affb] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 22:01:38.624  INFO [,f807cec74ad3affb,f807cec74ad3affb] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : END - doLogin
+2022-05-19 22:01:39.092  INFO [,5fb455ac5596e4d4,5fb455ac5596e4d4] 14712 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 22:01:39.134  INFO [,5fb455ac5596e4d4,5fb455ac5596e4d4] 14712 --- [http-nio-9085-exec-8] c.c.controller.PensionController         : END - allDetail
+2022-05-19 22:02:13.361  INFO [,6ce4e41dcc6c3464,6ce4e41dcc6c3464] 14712 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 22:02:13.418  INFO [,6ce4e41dcc6c3464,6ce4e41dcc6c3464] 14712 --- [http-nio-9085-exec-10] c.c.controller.PensionController         : END - allDetail
+2022-05-19 22:02:23.442  INFO [,eaf8ac96288d3ace,eaf8ac96288d3ace] 14712 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 22:02:23.457  INFO [,eaf8ac96288d3ace,eaf8ac96288d3ace] 14712 --- [http-nio-9085-exec-2] c.c.controller.PensionController         : END - doLogin
+2022-05-19 22:02:23.688  INFO [,9804d690f28bb0ee,9804d690f28bb0ee] 14712 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 22:02:23.753  INFO [,9804d690f28bb0ee,9804d690f28bb0ee] 14712 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : END - allDetail
+2022-05-19 22:02:54.903  INFO [,ca2844ed6195a81c,ca2844ed6195a81c] 14712 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 22:02:54.926  INFO [,ca2844ed6195a81c,ca2844ed6195a81c] 14712 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : END - allDetail
+2022-05-19 22:03:20.395  INFO [,ad28efa1682f7726,ad28efa1682f7726] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 22:03:20.411  INFO [,ad28efa1682f7726,ad28efa1682f7726] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : END - allDetail
+2022-05-19 22:06:06.290  INFO [,9678ee11c2694007,9678ee11c2694007] 14712 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 22:06:06.310  INFO [,9678ee11c2694007,9678ee11c2694007] 14712 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 22:06:22.396  INFO [,323d9cbd6e1e3258,323d9cbd6e1e3258] 14712 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 22:06:22.412  INFO [,323d9cbd6e1e3258,323d9cbd6e1e3258] 14712 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 22:08:28.111  INFO [,c5886962108e6afe,c5886962108e6afe] 14712 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 22:08:28.128  INFO [,c5886962108e6afe,c5886962108e6afe] 14712 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 22:09:24.829  INFO [,b0b9d4615a42a125,b0b9d4615a42a125] 14712 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 22:09:24.846  INFO [,b0b9d4615a42a125,b0b9d4615a42a125] 14712 --- [http-nio-9085-exec-5] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 22:15:14.322  INFO [,87d04022260b12d1,87d04022260b12d1] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 22:15:14.340  INFO [,87d04022260b12d1,87d04022260b12d1] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 22:15:43.626  INFO [,65177db560abb748,65177db560abb748] 14712 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : STARTED - getPensionDetail
+2022-05-19 22:15:43.693  INFO [,65177db560abb748,65177db560abb748] 14712 --- [http-nio-9085-exec-9] c.c.controller.PensionController         : END - getPensionDetail
+2022-05-19 22:17:06.322  INFO [,0db3c7f7f7d181a8,0db3c7f7f7d181a8] 14712 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : STARTED - getStatusCode
+2022-05-19 22:17:06.340  INFO [,0db3c7f7f7d181a8,0db3c7f7f7d181a8] 14712 --- [http-nio-9085-exec-1] c.c.controller.PensionController         : END - getStatusCode
+2022-05-19 22:18:17.723  INFO [,091a606e89636f57,091a606e89636f57] 14712 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : STARTED - doLogin
+2022-05-19 22:18:17.740  INFO [,091a606e89636f57,091a606e89636f57] 14712 --- [http-nio-9085-exec-3] c.c.controller.PensionController         : END - doLogin
+2022-05-19 22:18:18.699  INFO [,47d1cc70efc45aea,47d1cc70efc45aea] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : STARTED - allDetail
+2022-05-19 22:18:18.757  INFO [,47d1cc70efc45aea,47d1cc70efc45aea] 14712 --- [http-nio-9085-exec-4] c.c.controller.PensionController         : END - allDetail
+2022-05-19 22:18:27.043  INFO [,7b0447d983ee95f4,7b0447d983ee95f4] 14712 --- [http-nio-9085-exec-6] c.c.controller.PensionController         : STARTED - getPensionDetail
+2022-05-19 22:18:27.096 ERROR [,,] 14712 --- [http-nio-9085-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.FeignException$NotFound: [404] during [POST] to [http://localhost:9084/pensionerInput] [ProcessPensionClient#getPensionDetail(String,PensionerInput)]: [{"message":"Pensioner Detail not coreect","statusCode":404,"exceptionTime":1652978907087}]] with root cause
+
+feign.FeignException$NotFound: [404] during [POST] to [http://localhost:9084/pensionerInput] [ProcessPensionClient#getPensionDetail(String,PensionerInput)]: [{"message":"Pensioner Detail not coreect","statusCode":404,"exceptionTime":1652978907087}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:201) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:177) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:169) ~[feign-core-10.12.jar:na]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92) ~[feign-core-10.12.jar:na]
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89) ~[feign-core-10.12.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100) ~[feign-core-10.12.jar:na]
+	at com.sun.proxy.$Proxy112.getPensionDetail(Unknown Source) ~[na:na]
+	at com.cognizant.controller.PensionController.getPensionDetail(PensionController.java:104) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:89) ~[spring-cloud-sleuth-instrumentation-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.autoconfig.instrument.web.LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:114) ~[spring-cloud-sleuth-autoconfigure-3.0.3.jar:3.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2022-05-19 22:18:27.114  INFO [,67399fe38fe88b4d,67399fe38fe88b4d] 14712 --- [http-nio-9085-exec-7] c.c.controller.PensionController         : STARTED - getPensionDetail
+2022-05-19 22:18:27.204 ERROR [,,] 14712 --- [http-nio-9085-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.FeignException$NotFound: [404] during [POST] to [http://localhost:9084/pensionerInput] [ProcessPensionClient#getPensionDetail(String,PensionerInput)]: [{"message":"Pensioner Detail not coreect","statusCode":404,"exceptionTime":1652978907188}]] with root cause
+
+feign.FeignException$NotFound: [404] during [POST] to [http://localhost:9084/pensionerInput] [ProcessPensionClient#getPensionDetail(String,PensionerInput)]: [{"message":"Pensioner Detail not coreect","statusCode":404,"exceptionTime":1652978907188}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:201) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:177) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:169) ~[feign-core-10.12.jar:na]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92) ~[feign-core-10.12.jar:na]
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89) ~[feign-core-10.12.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100) ~[feign-core-10.12.jar:na]
+	at com.sun.proxy.$Proxy112.getPensionDetail(Unknown Source) ~[na:na]
+	at com.cognizant.controller.PensionController.getPensionDetail(PensionController.java:104) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:89) ~[spring-cloud-sleuth-instrumentation-3.0.3.jar:3.0.3]
+	at org.springframework.cloud.sleuth.autoconfig.instrument.web.LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:114) ~[spring-cloud-sleuth-autoconfigure-3.0.3.jar:3.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
