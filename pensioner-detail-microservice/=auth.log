@@ -1,0 +1,244 @@
+2022-04-25 14:05:17.494  INFO [PensionerDetailService,,] 5536 --- [restartedMain] c.PensionerDetailMicroserviceApplication : Starting PensionerDetailMicroserviceApplication using Java 1.8.0_141 on LTIN310484 with PID 5536 (C:\Users\894566\OneDrive - Cognizant\Desktop\FSE0\Pension management\PensionManagementSystem-master\PensionManagementSystem-master\pensioner-detail-microservice\target\classes started by 894566 in C:\Users\894566\OneDrive - Cognizant\Desktop\FSE0\Pension management\PensionManagementSystem-master\PensionManagementSystem-master\pensioner-detail-microservice)
+2022-04-25 14:05:17.520  INFO [PensionerDetailService,,] 5536 --- [restartedMain] c.PensionerDetailMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-04-25 14:05:17.640  INFO [PensionerDetailService,,] 5536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-25 14:05:17.640  INFO [PensionerDetailService,,] 5536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-25 14:05:19.507  INFO [PensionerDetailService,,] 5536 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-25 14:05:19.603  INFO [PensionerDetailService,,] 5536 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+2022-04-25 14:05:20.259  INFO [PensionerDetailService,,] 5536 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=85095809-9643-344a-ba36-0073e376c2c7
+2022-04-25 14:05:22.202  INFO [PensionerDetailService,,] 5536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2022-04-25 14:05:22.226  INFO [PensionerDetailService,,] 5536 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-25 14:05:22.227  INFO [PensionerDetailService,,] 5536 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-04-25 14:05:22.417  INFO [PensionerDetailService,,] 5536 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-25 14:05:22.418  INFO [PensionerDetailService,,] 5536 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4777 ms
+2022-04-25 14:05:22.587  INFO [PensionerDetailService,,] 5536 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-25 14:05:23.081  INFO [PensionerDetailService,,] 5536 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-25 14:05:23.098  INFO [PensionerDetailService,,] 5536 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-04-25 14:05:24.514  WARN [PensionerDetailService,,] 5536 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+2022-04-25 14:05:25.458  INFO [PensionerDetailService,,] 5536 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-25 14:05:25.552  INFO [PensionerDetailService,,] 5536 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-04-25 14:05:25.843  INFO [PensionerDetailService,,] 5536 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-25 14:05:26.041  INFO [PensionerDetailService,,] 5536 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-25 14:05:27.226  INFO [PensionerDetailService,,] 5536 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-25 14:05:27.248  INFO [PensionerDetailService,,] 5536 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-25 14:05:27.323  WARN [PensionerDetailService,,] 5536 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-04-25 14:05:28.320  INFO [PensionerDetailService,,] 5536 --- [restartedMain] c.c.service.PensionarDetailServiceImpl   : STARTED - savePensionerData
+2022-04-25 14:05:28.577  INFO [PensionerDetailService,,] 5536 --- [restartedMain] c.c.service.PensionarDetailServiceImpl   : END - savePensionerData
+2022-04-25 14:05:28.876  WARN [PensionerDetailService,,] 5536 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-25 14:05:33.249  INFO [PensionerDetailService,,] 5536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path ''
+2022-04-25 14:05:34.079  INFO [PensionerDetailService,,] 5536 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-04-25 14:05:34.107  INFO [PensionerDetailService,,] 5536 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-04-25 14:05:34.124  INFO [PensionerDetailService,,] 5536 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-04-25 14:05:34.535  INFO [PensionerDetailService,,] 5536 --- [restartedMain] c.PensionerDetailMicroserviceApplication : Started PensionerDetailMicroserviceApplication in 18.279 seconds (JVM running for 19.167)
+2022-04-25 14:06:10.587  INFO [PensionerDetailService,,] 5536 --- [http-nio-9081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-25 14:06:10.587  INFO [PensionerDetailService,,] 5536 --- [http-nio-9081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-25 14:06:10.589  INFO [PensionerDetailService,,] 5536 --- [http-nio-9081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-25 14:06:10.639  INFO [PensionerDetailService,8df579d4bd7aeec9,c34530a7cea4d6c1] 5536 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-04-25 14:06:10.640  INFO [PensionerDetailService,8df579d4bd7aeec9,c34530a7cea4d6c1] 5536 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-04-25 14:06:24.392  INFO [PensionerDetailService,f522a75a64fe9a1f,db8bd4580d2563ec] 5536 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-04-25 14:06:24.392  INFO [PensionerDetailService,f522a75a64fe9a1f,db8bd4580d2563ec] 5536 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-04-25 14:06:46.753  INFO [PensionerDetailService,f0c452b233e089a9,d2e360b4d67c8a2c] 5536 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-04-25 14:06:46.754  INFO [PensionerDetailService,f0c452b233e089a9,d2e360b4d67c8a2c] 5536 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 17:54:44.469  INFO [PensionerDetailService,,] 12064 --- [restartedMain] c.PensionerDetailMicroserviceApplication : Starting PensionerDetailMicroserviceApplication using Java 15.0.2 on sam with PID 12064 (C:\Users\sumit sahane\Downloads\5_6068926584683758823\pensioner-detail-microservice\target\classes started by sumit sahane in C:\Users\sumit sahane\Downloads\5_6068926584683758823\pensioner-detail-microservice)
+2022-05-19 17:54:44.487  INFO [PensionerDetailService,,] 12064 --- [restartedMain] c.PensionerDetailMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-05-19 17:54:44.890  INFO [PensionerDetailService,,] 12064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-19 17:54:44.892  INFO [PensionerDetailService,,] 12064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-19 17:54:50.720  INFO [PensionerDetailService,,] 12064 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 17:54:50.931  INFO [PensionerDetailService,,] 12064 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 186 ms. Found 1 JPA repository interfaces.
+2022-05-19 17:54:52.336  INFO [PensionerDetailService,,] 12064 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=85095809-9643-344a-ba36-0073e376c2c7
+2022-05-19 17:54:55.673  INFO [PensionerDetailService,,] 12064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2022-05-19 17:54:55.727  INFO [PensionerDetailService,,] 12064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 17:54:55.730  INFO [PensionerDetailService,,] 12064 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-05-19 17:54:56.394  INFO [PensionerDetailService,,] 12064 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 17:54:56.402  INFO [PensionerDetailService,,] 12064 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11508 ms
+2022-05-19 17:54:57.017  INFO [PensionerDetailService,,] 12064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-19 17:54:57.843  INFO [PensionerDetailService,,] 12064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-19 17:54:57.879  INFO [PensionerDetailService,,] 12064 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-05-19 17:54:59.962  WARN [PensionerDetailService,,] 12064 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect timed out; nested exception is java.net.SocketTimeoutException: Connect timed out}]
+2022-05-19 17:55:01.705  INFO [PensionerDetailService,,] 12064 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-19 17:55:02.066  INFO [PensionerDetailService,,] 12064 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-05-19 17:55:02.753  INFO [PensionerDetailService,,] 12064 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-19 17:55:03.489  INFO [PensionerDetailService,,] 12064 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-19 17:55:05.465  INFO [PensionerDetailService,,] 12064 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-19 17:55:05.486  INFO [PensionerDetailService,,] 12064 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 17:55:05.660  WARN [PensionerDetailService,,] 12064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-19 17:55:07.048  INFO [PensionerDetailService,,] 12064 --- [restartedMain] c.c.service.PensionarDetailServiceImpl   : STARTED - savePensionerData
+2022-05-19 17:55:07.539  INFO [PensionerDetailService,,] 12064 --- [restartedMain] c.c.service.PensionarDetailServiceImpl   : END - savePensionerData
+2022-05-19 17:55:08.188  WARN [PensionerDetailService,,] 12064 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-19 17:55:14.512  INFO [PensionerDetailService,,] 12064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path ''
+2022-05-19 17:55:14.959  INFO [PensionerDetailService,,] 12064 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-05-19 17:55:15.080  INFO [PensionerDetailService,,] 12064 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-05-19 17:55:15.177  INFO [PensionerDetailService,,] 12064 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-05-19 17:55:16.041  INFO [PensionerDetailService,,] 12064 --- [restartedMain] c.PensionerDetailMicroserviceApplication : Started PensionerDetailMicroserviceApplication in 34.86 seconds (JVM running for 37.912)
+2022-05-19 18:05:18.331  INFO [PensionerDetailService,,] 12064 --- [http-nio-9081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-19 18:05:18.354  INFO [PensionerDetailService,,] 12064 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-19 18:05:18.446  INFO [PensionerDetailService,,] 12064 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 92 ms
+2022-05-19 18:05:18.916  INFO [PensionerDetailService,822fa38e5aea1822,65a5ed63f81faa4f] 12064 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 18:05:18.916  INFO [PensionerDetailService,822fa38e5aea1822,65a5ed63f81faa4f] 12064 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 18:47:58.455  INFO [PensionerDetailService,b50052cbcbfed48d,aa211c1985f7d94e] 12064 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 18:47:58.458  INFO [PensionerDetailService,b50052cbcbfed48d,aa211c1985f7d94e] 12064 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 18:50:19.559  INFO [PensionerDetailService,c478f9963ab71341,96c809e1c1224066] 12064 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 18:50:19.561  INFO [PensionerDetailService,c478f9963ab71341,96c809e1c1224066] 12064 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 18:50:29.193  INFO [PensionerDetailService,8b74fd7e2a3327c7,49e8b21176acbbfe] 12064 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 18:50:29.194  INFO [PensionerDetailService,8b74fd7e2a3327c7,49e8b21176acbbfe] 12064 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 18:51:49.728  INFO [PensionerDetailService,2e19c21c42b2dea5,b52d49580f9b4db7] 12064 --- [http-nio-9081-exec-8] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 18:51:49.967  INFO [PensionerDetailService,2e19c21c42b2dea5,b52d49580f9b4db7] 12064 --- [http-nio-9081-exec-8] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 18:52:43.921  INFO [PensionerDetailService,60ee7040d24d3bbf,4dc831232ba7882f] 12064 --- [http-nio-9081-exec-9] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 18:52:43.978  INFO [PensionerDetailService,60ee7040d24d3bbf,4dc831232ba7882f] 12064 --- [http-nio-9081-exec-9] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 18:53:03.652  INFO [PensionerDetailService,ef630614ad1f6e7f,6b10dda9617fe07e] 12064 --- [http-nio-9081-exec-10] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 18:53:03.708  INFO [PensionerDetailService,ef630614ad1f6e7f,6b10dda9617fe07e] 12064 --- [http-nio-9081-exec-10] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 18:53:11.355  INFO [PensionerDetailService,bebe02b7dfe61d74,ea2722754cacf94e] 12064 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 18:53:11.384  INFO [PensionerDetailService,bebe02b7dfe61d74,ea2722754cacf94e] 12064 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 18:53:52.585  INFO [PensionerDetailService,cb3969451b2d810f,fd9cae2ab2b1b9c2] 12064 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 18:53:52.605  INFO [PensionerDetailService,cb3969451b2d810f,fd9cae2ab2b1b9c2] 12064 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 18:54:41.497  INFO [PensionerDetailService,0100abc7b7ac9929,fbac10fefaf90f0f] 12064 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 18:54:41.521  INFO [PensionerDetailService,0100abc7b7ac9929,fbac10fefaf90f0f] 12064 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 18:55:04.458  INFO [PensionerDetailService,fb08cdf22155b607,4a2ba43e58b3ab9a] 12064 --- [http-nio-9081-exec-4] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 18:55:04.506  INFO [PensionerDetailService,fb08cdf22155b607,4a2ba43e58b3ab9a] 12064 --- [http-nio-9081-exec-4] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 18:55:24.318  INFO [PensionerDetailService,4a0b96154a95b399,6392030d98354850] 12064 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 18:55:24.349  INFO [PensionerDetailService,4a0b96154a95b399,6392030d98354850] 12064 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 18:56:21.928  INFO [PensionerDetailService,ccd22144ee664be0,c2623c23c302af76] 12064 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 18:56:21.962  INFO [PensionerDetailService,ccd22144ee664be0,c2623c23c302af76] 12064 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 20:32:43.204  INFO [PensionerDetailService,,] 8940 --- [restartedMain] c.PensionerDetailMicroserviceApplication : Starting PensionerDetailMicroserviceApplication using Java 15.0.2 on sam with PID 8940 (C:\Users\sumit sahane\Downloads\5_6068926584683758823\pensioner-detail-microservice\target\classes started by sumit sahane in C:\Users\sumit sahane\Downloads\5_6068926584683758823\pensioner-detail-microservice)
+2022-05-19 20:32:43.219  INFO [PensionerDetailService,,] 8940 --- [restartedMain] c.PensionerDetailMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-05-19 20:32:43.340  INFO [PensionerDetailService,,] 8940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-19 20:32:43.341  INFO [PensionerDetailService,,] 8940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-19 20:32:45.188  INFO [PensionerDetailService,,] 8940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 20:32:45.295  INFO [PensionerDetailService,,] 8940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interfaces.
+2022-05-19 20:32:46.383  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=85095809-9643-344a-ba36-0073e376c2c7
+2022-05-19 20:32:47.994  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2022-05-19 20:32:48.014  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 20:32:48.015  INFO [PensionerDetailService,,] 8940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-05-19 20:32:48.255  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 20:32:48.255  INFO [PensionerDetailService,,] 8940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4913 ms
+2022-05-19 20:32:48.394  INFO [PensionerDetailService,,] 8940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-19 20:32:48.763  INFO [PensionerDetailService,,] 8940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-19 20:32:48.773  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-05-19 20:32:49.887  WARN [PensionerDetailService,,] 8940 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect timed out; nested exception is java.net.SocketTimeoutException: Connect timed out}]
+2022-05-19 20:32:50.371  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-19 20:32:50.612  INFO [PensionerDetailService,,] 8940 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-05-19 20:32:51.047  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-19 20:32:51.243  INFO [PensionerDetailService,,] 8940 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-19 20:32:52.129  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-19 20:32:52.140  INFO [PensionerDetailService,,] 8940 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 20:32:52.199  WARN [PensionerDetailService,,] 8940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-19 20:32:52.763  INFO [PensionerDetailService,,] 8940 --- [restartedMain] c.c.service.PensionarDetailServiceImpl   : STARTED - savePensionerData
+2022-05-19 20:32:52.934  INFO [PensionerDetailService,,] 8940 --- [restartedMain] c.c.service.PensionarDetailServiceImpl   : END - savePensionerData
+2022-05-19 20:32:53.187  WARN [PensionerDetailService,,] 8940 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-19 20:32:55.198  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path ''
+2022-05-19 20:32:55.327  INFO [PensionerDetailService,,] 8940 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-05-19 20:32:55.350  INFO [PensionerDetailService,,] 8940 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-05-19 20:32:55.362  INFO [PensionerDetailService,,] 8940 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-05-19 20:32:55.570  INFO [PensionerDetailService,,] 8940 --- [restartedMain] c.PensionerDetailMicroserviceApplication : Started PensionerDetailMicroserviceApplication in 13.274 seconds (JVM running for 14.539)
+2022-05-19 20:35:25.982  INFO [PensionerDetailService,,] 8940 --- [http-nio-9081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-19 20:35:25.987  INFO [PensionerDetailService,,] 8940 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-19 20:35:26.024  INFO [PensionerDetailService,,] 8940 --- [http-nio-9081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
+2022-05-19 20:35:26.145  INFO [PensionerDetailService,01f7813dea7be152,a73b779ba373784b] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 20:35:26.151  INFO [PensionerDetailService,01f7813dea7be152,a73b779ba373784b] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:13:10.041  INFO [PensionerDetailService,0977d53e82bdfe46,22ff989a2bc075b7] 8940 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:13:10.047  INFO [PensionerDetailService,0977d53e82bdfe46,22ff989a2bc075b7] 8940 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:13:33.104  INFO [PensionerDetailService,0a192a4ff381c2ea,082ebbc782e16028] 8940 --- [http-nio-9081-exec-4] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:13:33.106  INFO [PensionerDetailService,0a192a4ff381c2ea,082ebbc782e16028] 8940 --- [http-nio-9081-exec-4] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:16:20.116  INFO [PensionerDetailService,097bb6359ab732ca,e43413a1dd0bb60c] 8940 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:16:20.117  INFO [PensionerDetailService,097bb6359ab732ca,e43413a1dd0bb60c] 8940 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:16:46.060  INFO [PensionerDetailService,6e6bad598f60713f,ff345ed4182d1785] 8940 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:16:46.060  INFO [PensionerDetailService,6e6bad598f60713f,ff345ed4182d1785] 8940 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:22:38.710  INFO [PensionerDetailService,e15539e718b79df6,ed7067659f7235df] 8940 --- [http-nio-9081-exec-8] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:22:38.711  INFO [PensionerDetailService,e15539e718b79df6,ed7067659f7235df] 8940 --- [http-nio-9081-exec-8] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:27:23.268  INFO [PensionerDetailService,bac228163f046591,182a4317c567c9cb] 8940 --- [http-nio-9081-exec-10] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:27:23.270  INFO [PensionerDetailService,bac228163f046591,182a4317c567c9cb] 8940 --- [http-nio-9081-exec-10] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:27:29.338  INFO [PensionerDetailService,67bace54b007f659,02e90686a3c14a7b] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:27:29.338  INFO [PensionerDetailService,67bace54b007f659,02e90686a3c14a7b] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:27:39.677  INFO [PensionerDetailService,15004c630e7a0d6c,1518dcb68e70f31d] 8940 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:27:39.677  INFO [PensionerDetailService,15004c630e7a0d6c,1518dcb68e70f31d] 8940 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:30:27.630  INFO [PensionerDetailService,5df0896beb78eb9e,79654c6fea8af89c] 8940 --- [http-nio-9081-exec-4] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:30:27.630  INFO [PensionerDetailService,5df0896beb78eb9e,79654c6fea8af89c] 8940 --- [http-nio-9081-exec-4] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:30:59.183  INFO [PensionerDetailService,011d713da13becf7,788858c096304ceb] 8940 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:30:59.183  INFO [PensionerDetailService,011d713da13becf7,788858c096304ceb] 8940 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:32:08.446  INFO [PensionerDetailService,d9262779dd61e289,0df75fa7cba6d066] 8940 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:32:08.447  INFO [PensionerDetailService,d9262779dd61e289,0df75fa7cba6d066] 8940 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:33:00.305  INFO [PensionerDetailService,521c07e03396837d,6ba074ec366f6280] 8940 --- [http-nio-9081-exec-7] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:33:00.305  INFO [PensionerDetailService,521c07e03396837d,6ba074ec366f6280] 8940 --- [http-nio-9081-exec-7] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:35:35.732  INFO [PensionerDetailService,0f44ae7ed03268cb,66b3eb6849ca2da2] 8940 --- [http-nio-9081-exec-8] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:35:35.732  INFO [PensionerDetailService,0f44ae7ed03268cb,66b3eb6849ca2da2] 8940 --- [http-nio-9081-exec-8] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:35:39.853  INFO [PensionerDetailService,4665dbc0fa8fdb8c,3fab19aac7810383] 8940 --- [http-nio-9081-exec-9] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:35:39.854  INFO [PensionerDetailService,4665dbc0fa8fdb8c,3fab19aac7810383] 8940 --- [http-nio-9081-exec-9] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:36:53.735  INFO [PensionerDetailService,4309c6f5843de22a,aa6fd53376fa34e6] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:36:53.736  INFO [PensionerDetailService,4309c6f5843de22a,aa6fd53376fa34e6] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:36:58.982  INFO [PensionerDetailService,d50ef168fdfdea19,c2ac2c07e725c918] 8940 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:36:58.982  INFO [PensionerDetailService,d50ef168fdfdea19,c2ac2c07e725c918] 8940 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:38:04.775  INFO [PensionerDetailService,73998d3a5393dc61,541f9cd9294d7d44] 8940 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:38:04.775  INFO [PensionerDetailService,73998d3a5393dc61,541f9cd9294d7d44] 8940 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:38:27.164  INFO [PensionerDetailService,fd520e7a51acde7b,8cbdb6ada2bf81e5] 8940 --- [http-nio-9081-exec-4] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:38:27.167  INFO [PensionerDetailService,fd520e7a51acde7b,8cbdb6ada2bf81e5] 8940 --- [http-nio-9081-exec-4] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:38:32.658  INFO [PensionerDetailService,26882cd36e55f42a,ff8446a80b2d36c0] 8940 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:38:32.659  INFO [PensionerDetailService,26882cd36e55f42a,ff8446a80b2d36c0] 8940 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:38:51.456  INFO [PensionerDetailService,5152de9157e22735,2231f92763ae4084] 8940 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:38:51.456  INFO [PensionerDetailService,5152de9157e22735,2231f92763ae4084] 8940 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:50:47.150  INFO [PensionerDetailService,b15aa055c776c757,bbf07115b3ac6c5e] 8940 --- [http-nio-9081-exec-7] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 21:50:47.150  INFO [PensionerDetailService,b15aa055c776c757,bbf07115b3ac6c5e] 8940 --- [http-nio-9081-exec-7] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 21:53:13.054  INFO [PensionerDetailService,0795e4ec54640aab,a3d1bb6bf68c998f] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 21:53:13.242  INFO [PensionerDetailService,0795e4ec54640aab,a3d1bb6bf68c998f] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 21:53:50.537  INFO [PensionerDetailService,a36752864451a8c7,89383ee721fddb81] 8940 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 21:53:50.569  INFO [PensionerDetailService,a36752864451a8c7,89383ee721fddb81] 8940 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 22:00:07.770  INFO [PensionerDetailService,532a0a21bdacf331,de051da0ae0f6289] 8940 --- [http-nio-9081-exec-4] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 22:00:07.791  INFO [PensionerDetailService,532a0a21bdacf331,de051da0ae0f6289] 8940 --- [http-nio-9081-exec-4] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 22:00:31.778  INFO [PensionerDetailService,daea6020e24901aa,298ad2e01a7b84eb] 8940 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 22:00:31.780  INFO [PensionerDetailService,daea6020e24901aa,298ad2e01a7b84eb] 8940 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 22:01:39.117  INFO [PensionerDetailService,5fb455ac5596e4d4,f52fb3e294a72876] 8940 --- [http-nio-9081-exec-7] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 22:01:39.118  INFO [PensionerDetailService,5fb455ac5596e4d4,f52fb3e294a72876] 8940 --- [http-nio-9081-exec-7] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 22:02:13.380  INFO [PensionerDetailService,6ce4e41dcc6c3464,e4b14c26f1ee8a60] 8940 --- [http-nio-9081-exec-8] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 22:02:13.381  INFO [PensionerDetailService,6ce4e41dcc6c3464,e4b14c26f1ee8a60] 8940 --- [http-nio-9081-exec-8] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 22:02:23.707  INFO [PensionerDetailService,9804d690f28bb0ee,b12645bc7cc94cda] 8940 --- [http-nio-9081-exec-9] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 22:02:23.708  INFO [PensionerDetailService,9804d690f28bb0ee,b12645bc7cc94cda] 8940 --- [http-nio-9081-exec-9] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 22:02:54.910  INFO [PensionerDetailService,ca2844ed6195a81c,68298f8c13e6e22a] 8940 --- [http-nio-9081-exec-10] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 22:02:54.910  INFO [PensionerDetailService,ca2844ed6195a81c,68298f8c13e6e22a] 8940 --- [http-nio-9081-exec-10] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 22:03:20.411  INFO [PensionerDetailService,ad28efa1682f7726,9660ceeedc303f86] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 22:03:20.411  INFO [PensionerDetailService,ad28efa1682f7726,9660ceeedc303f86] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 22:06:06.322  INFO [PensionerDetailService,9678ee11c2694007,4cf0de4fe5b79096] 8940 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 22:06:06.344  INFO [PensionerDetailService,9678ee11c2694007,4cf0de4fe5b79096] 8940 --- [http-nio-9081-exec-2] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 22:06:22.420  INFO [PensionerDetailService,323d9cbd6e1e3258,4b6dd4b216b6ead2] 8940 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 22:06:22.435  INFO [PensionerDetailService,323d9cbd6e1e3258,4b6dd4b216b6ead2] 8940 --- [http-nio-9081-exec-3] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 22:08:28.141  INFO [PensionerDetailService,c5886962108e6afe,24612df4e0cdad2e] 8940 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 22:08:28.159  INFO [PensionerDetailService,c5886962108e6afe,24612df4e0cdad2e] 8940 --- [http-nio-9081-exec-5] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 22:09:24.853  INFO [PensionerDetailService,b0b9d4615a42a125,3457f11bf304c18e] 8940 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 22:09:24.870  INFO [PensionerDetailService,b0b9d4615a42a125,3457f11bf304c18e] 8940 --- [http-nio-9081-exec-6] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 22:15:14.357  INFO [PensionerDetailService,87d04022260b12d1,ef8bb818500eb529] 8940 --- [http-nio-9081-exec-8] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 22:15:14.381  INFO [PensionerDetailService,87d04022260b12d1,ef8bb818500eb529] 8940 --- [http-nio-9081-exec-8] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 22:15:43.663  INFO [PensionerDetailService,65177db560abb748,d0fb6527ce88ffc0] 8940 --- [http-nio-9081-exec-9] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 22:15:43.685  INFO [PensionerDetailService,65177db560abb748,d0fb6527ce88ffc0] 8940 --- [http-nio-9081-exec-9] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 22:17:06.353  INFO [PensionerDetailService,0db3c7f7f7d181a8,2aba2602468d2b74] 8940 --- [http-nio-9081-exec-10] c.c.c.PensionerDetailsController         : STARTED - findByAadhaarNumber
+2022-05-19 22:17:06.370  INFO [PensionerDetailService,0db3c7f7f7d181a8,2aba2602468d2b74] 8940 --- [http-nio-9081-exec-10] c.c.c.PensionerDetailsController         : END - findByAadhaarNumber
+2022-05-19 22:18:18.741  INFO [PensionerDetailService,47d1cc70efc45aea,c590d9b14805c7fe] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : STARTED - getAllDetail
+2022-05-19 22:18:18.742  INFO [PensionerDetailService,47d1cc70efc45aea,c590d9b14805c7fe] 8940 --- [http-nio-9081-exec-1] c.c.c.PensionerDetailsController         : END - getAllDetail
+2022-05-19 22:29:26.443  INFO [PensionerDetailService,,] 8940 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 22:29:26.728  WARN [PensionerDetailService,,] 8940 --- [Thread-1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-19 22:29:27.746  INFO [PensionerDetailService,,] 8940 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-19 22:29:27.764  INFO [PensionerDetailService,,] 8940 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-19 22:29:28.966  INFO [PensionerDetailService,,] 8940 --- [restartedMain] c.PensionerDetailMicroserviceApplication : Starting PensionerDetailMicroserviceApplication using Java 15.0.2 on sam with PID 8940 (C:\Users\sumit sahane\Downloads\5_6068926584683758823\pensioner-detail-microservice\target\classes started by sumit sahane in C:\Users\sumit sahane\Downloads\5_6068926584683758823\pensioner-detail-microservice)
+2022-05-19 22:29:28.970  INFO [PensionerDetailService,,] 8940 --- [restartedMain] c.PensionerDetailMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-05-19 22:29:30.323  INFO [PensionerDetailService,,] 8940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 22:29:30.357  INFO [PensionerDetailService,,] 8940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2022-05-19 22:29:30.815  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=85095809-9643-344a-ba36-0073e376c2c7
+2022-05-19 22:29:31.410  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (http)
+2022-05-19 22:29:31.413  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 22:29:31.414  INFO [PensionerDetailService,,] 8940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-05-19 22:29:31.593  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 22:29:31.593  INFO [PensionerDetailService,,] 8940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2615 ms
+2022-05-19 22:29:31.686  INFO [PensionerDetailService,,] 8940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-05-19 22:29:31.691  INFO [PensionerDetailService,,] 8940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-05-19 22:29:31.691  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-05-19 22:29:32.604  WARN [PensionerDetailService,,] 8940 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect timed out; nested exception is java.net.SocketTimeoutException: Connect timed out}]
+2022-05-19 22:29:32.958  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-19 22:29:32.977  INFO [PensionerDetailService,,] 8940 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-19 22:29:33.171  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-19 22:29:33.174  INFO [PensionerDetailService,,] 8940 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 22:29:33.234  WARN [PensionerDetailService,,] 8940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-19 22:29:33.642  INFO [PensionerDetailService,,] 8940 --- [restartedMain] c.c.service.PensionarDetailServiceImpl   : STARTED - savePensionerData
+2022-05-19 22:29:33.732  INFO [PensionerDetailService,,] 8940 --- [restartedMain] c.c.service.PensionarDetailServiceImpl   : END - savePensionerData
+2022-05-19 22:29:34.007  WARN [PensionerDetailService,,] 8940 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-19 22:29:36.984  INFO [PensionerDetailService,,] 8940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (http) with context path ''
+2022-05-19 22:29:37.477  INFO [PensionerDetailService,,] 8940 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-05-19 22:29:37.479  INFO [PensionerDetailService,,] 8940 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-05-19 22:29:37.484  INFO [PensionerDetailService,,] 8940 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-05-19 22:29:37.564  INFO [PensionerDetailService,,] 8940 --- [restartedMain] c.PensionerDetailMicroserviceApplication : Started PensionerDetailMicroserviceApplication in 9.274 seconds (JVM running for 7016.535)
+2022-05-19 22:29:37.572  INFO [PensionerDetailService,,] 8940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
